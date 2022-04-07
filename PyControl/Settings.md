@@ -2,57 +2,64 @@
 
 ## General
 
-- IsGcsCommunicatorSerialPort=true 船控与地面站通讯方式 True为网口，False为串口
-- GnssType=0 惯导类型，0为BIN协议，1为ASCII协议，2为维特协议，3为瑞芬协议
-- WarningThreshold=10 雷达警告等级 ，默认，无需修改
+| 字段                          | 说明                                         |
+|-----------------------------|--------------------------------------------|
+| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式true为网口，false为串口                 |
+| GnssType                    | 惯导类型，0为BIN协议，1为ASCII协议，2为维特协议，3为瑞芬协议，4为FDI |
+| WarningThreshold            | 按默认值10                                     |
 
 ## Actuators
 
-- IsMonohull=true 是否为单体船，True为单体船，False为单体船
-- IsThrustSbus=true 无需修改
-- IsAble2Reverse=false 是否支持正反转
-- IsSwitchReverse=false 开关切换正反转，无需修改
-- SbusChannel1Min=65535 遥控器通道参数
-- SbusChannel1Mid=65535 遥控器通道参数
-- SbusChannel1Max=65535 遥控器通道参数
-- SbusChannel3Min=65535 遥控器通道参数
-- SbusChannel3Mid=65535 遥控器通道参数
-- SbusChannel3Max=65535 遥控器通道参数
-- SbusRudderMin=352 舵量参数配置
-- SbusRudderMid=1024 舵量参数配置
-- SbusRudderMax=1696 舵量参数配置
-- SbusThrustMin=1696 推力参数配置
-- SbusThrustMid=1024 推力参数配置
-- SbusThrustMax=352 推力参数配置 SbusChannel6On=65535 通道6参数配置
-- SbusChannel6Off=65535 通道6参数配置
-- SbusReverse1On=1696 无需配置
-- SbusReverse1Off=352 无需配置
-- SbusChannel7On=65535 通道7参数配置
-- SbusChannel7Off=65535 通道7参数配置
-- SbusReverse2On=1696 无需配置
-- SbusReverse2Off=352 无需配置
-- SbusChannel5Default=65535 通道5参数配置
-- SbusChannel5On=65535 通道5参数配置
-- SbusChannel5Off=65535 通道5参数配置
-- SbusIgnitionDefault=1024 点火通道参数配置
-- SbusIgnitionOn=352 点火通道参数配置
-- SbusIgnitionOff=1696 点火通道参数配置
-- SbusChannel8Default=65535 通道8参数配置
-- SbusChannel8On1=65535 通道8参数配置
-- SbusChannel8On2=65535 通道8参数配置
-- SbusSamplingDefault=1024 采样通道参数配置
-- SbusSamplingOn1=352 采样通道参数配置
-- SbusSamplingOn2=1696 采样通道参数配置
+| 字段                  | 说明                        |
+|---------------------|---------------------------|
+| IsMonohull          | 是否为单体船，true为单体船，false为单体船 |
+| IsThrustSbus        | 无需修改                      |
+| IsAble2Reverse      | 是否支持正反转                   |
+| IsSwitchReverse     | 开关切换正反转，无需修改              |
+| SbusChannel1Min     | 遥控器通道参数                   |
+| SbusChannel1Mid     | 遥控器通道参数                   |
+| SbusChannel1Max     | 遥控器通道参数                   |
+| SbusChannel3Min     | 遥控器通道参数                   |
+| SbusChannel3Mid     | 遥控器通道参数                   |
+| SbusChannel3Max     | 遥控器通道参数                   |
+| SbusRudderMin       | 舵量参数配置                    |
+| SbusRudderMid       | 舵量参数配置                    |
+| SbusRudderMax       | 舵量参数配置                    |
+| SbusThrustMin       | 推力参数配置                    |
+| SbusThrustMid       | 推力参数配置                    |
+| SbusThrustMax       | 推力参数配置                    |
+| SbusChannel6On      | 通道6参数配置                   |
+| SbusChannel6Off     | 通道6参数配置                   |
+| SbusReverse1On      | 无需配置                      |
+| SbusReverse1Off     | 无需配置                      |
+| SbusChannel7On      | 通道7参数配置                   |
+| SbusChannel7Off     | 通道7参数配置                   |
+| SbusReverse2On      | 无需配置                      |
+| SbusReverse2Off     | 无需配置                      |
+| SbusChannel5Default | 通道5参数配置                   |
+| SbusChannel5On      | 通道5参数配置                   |
+| SbusChannel5Off     | 通道5参数配置                   |
+| SbusIgnitionDefault | 点火通道参数配置                  |
+| SbusIgnitionOn      | 点火通道参数配置                  |
+| SbusIgnitionOff     | 点火通道参数配置                  |
+| SbusChannel8Default | 通道8参数配置                   |
+| SbusChannel8On1     | 通道8参数配置                   |
+| SbusChannel8On2     | 通道8参数配置                   |
+| SbusSamplingDefault | 采样通道参数配置                  |
+| SbusSamplingOn1     | 采样通道参数配置                  |
+| SbusSamplingOn2     | 采样通道参数配置                  |
 
 ## Pid
 
-- Id=0 USV编号
-- HeadingP=0 PID参数，可在线调参
-- HeadingI=0 PID参数，可在线调参
-- HeadingD=0 PID参数，可在线调参
-- SpeedP=0 PID参数，可在线调参
-- SpeedI=0 PID参数，可在线调参
-- SpeedD=0 PID参数，可在线调参
-- PositionP=0 PID参数，可在线调参
-- PositionI=0 PID参数，可在线调参
-- PositionD=0 PID参数，可在线调参
+| 字段        | 说明          |
+|-----------|-------------|
+| Id        | PID参数，可在线调参 |
+| HeadingP  | PID参数，可在线调参 |
+| HeadingI  | PID参数，可在线调参 |
+| HeadingD  | PID参数，可在线调参 |
+| SpeedP    | PID参数，可在线调参 |
+| SpeedI    | PID参数，可在线调参 |
+| SpeedD    | PID参数，可在线调参 |
+| PositionP | PID参数，可在线调参 |
+| PositionI | PID参数，可在线调参 |
+| PositionD | PID参数，可在线调参 |
