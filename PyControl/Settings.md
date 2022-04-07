@@ -2,11 +2,11 @@
 
 ## General
 
-| 字段                          | 说明                                         |
-|-----------------------------|--------------------------------------------|
-| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式true为网口，false为串口                 |
-| GnssType                    | 惯导类型，0为BIN协议，1为ASCII协议，2为维特协议，3为瑞芬协议，4为FDI |
-| WarningThreshold            | 按默认值10                                     |
+| 字段                          | 说明                                                                  |
+|-----------------------------|---------------------------------------------------------------------|
+| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式true为网口，false为串口                                          |
+| GnssType                    | 惯导类型，<br/>0为BIN协议，<br/>1为ASCII协议，<br/>2为维特协议，<br/>3为瑞芬协议，<br/>4为FDI |
+| WarningThreshold            | 按默认值10                                                              |
 
 ## Actuators
 
