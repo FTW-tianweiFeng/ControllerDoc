@@ -1,3 +1,3 @@
 #硬件连接图
 
-![avatar]()
+![Hardware connection](PyControl/Hardware connection.vsdx)
