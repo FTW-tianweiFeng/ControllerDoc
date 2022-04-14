@@ -4,6 +4,6 @@
 :maxdepth: 1
 :caption: 目录
 
-Settings
 Hardware
+Settings
 ```
