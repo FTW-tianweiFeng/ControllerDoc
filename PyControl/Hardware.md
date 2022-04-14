@@ -1,3 +1,3 @@
 #硬件连接图
 
-![avatar](PyControl/Hardware connection.jpg)
+![avatar](/home/picture/1.png)
