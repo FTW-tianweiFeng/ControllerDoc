@@ -4,7 +4,7 @@
 
 | 字段                          | 说明                                                              |
 |-----------------------------|-----------------------------------------------------------------|
-| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式true为网口，false为串口                                      |
+| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式：true为串口，false为网口                                      |
 | GnssType                    | 惯导类型：<br/>0为BIN协议<br/>1为ASCII协议<br/>2为维特协议<br/>3为瑞芬协议<br/>4为FDI |
 | WarningThreshold            | 按默认值10                                                          |
 
@@ -12,7 +12,7 @@
 
 | 字段                  | 说明                        |
 |---------------------|---------------------------|
-| IsMonohull          | 是否为单体船，true为单体船，false为单体船 |
+| IsMonohull          | 是否为单体船，true为单体船，false为双体船 |
 | IsThrustSbus        | 无需修改                      |
 | IsAble2Reverse      | 是否支持正反转                   |
 | IsSwitchReverse     | 开关切换正反转，无需修改              |
@@ -53,7 +53,7 @@
 
 | 字段        | 说明          |
 |-----------|-------------|
-| Id        | PID参数，可在线调参 |
+| VehicleId | PID参数，可在线调参 |
 | HeadingP  | PID参数，可在线调参 |
 | HeadingI  | PID参数，可在线调参 |
 | HeadingD  | PID参数，可在线调参 |
