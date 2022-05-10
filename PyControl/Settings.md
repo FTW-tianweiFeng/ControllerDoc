@@ -4,7 +4,7 @@
 
 | 字段                          | 说明                                                              |
 |-----------------------------|-----------------------------------------------------------------|
-| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式：true为串口，false为网口                                      |
+| IsGcsCommunicatorSerialPort | 船控与地面站通讯方式：true为串口，false为网口                                     |
 | GnssType                    | 惯导类型：<br/>0为BIN协议<br/>1为ASCII协议<br/>2为维特协议<br/>3为瑞芬协议<br/>4为FDI |
 | WarningThreshold            | 按默认值10                                                          |
 
