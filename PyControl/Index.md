@@ -6,4 +6,5 @@
 
 Hardware
 Settings
+fdi config
 ```
